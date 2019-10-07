@@ -19,10 +19,8 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
+Route::prefix('vue')->group(function () {
+    Route::get('test01', function () {
+        return 'test01';
+    });
+});
