@@ -20,7 +20,13 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::prefix('vue')->group(function () {
-    Route::get('test01', function () {
-        return 'test01';
+    Route::get('chap122', function () {
+        return view('vue_test.chap122');
+    });
+    Route::get('chap21', function () {
+        return view('vue_test.chap21');
+    });
+    Route::get('chap213', function () {
+        return view('vue_test.chap213');
     });
 });
