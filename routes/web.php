@@ -23,10 +23,22 @@ Route::prefix('vue')->group(function () {
     Route::get('chap122', function () {
         return view('vue_test.chap122');
     });
-    Route::get('chap21', function () {
-        return view('vue_test.chap21');
+    Route::get('chap211', function () {
+        return view('vue_test.chap211');
     });
     Route::get('chap213', function () {
         return view('vue_test.chap213');
+    });
+    Route::get('chap214', function () {
+        return view('vue_test.chap214');
+    });
+    Route::get('chap321', function () {
+        return view('vue_test.chap321');
+    });
+    Route::get('chap322', function () {
+        return view('vue_test.chap322');
+    });
+    Route::get('chap422', function () {
+        return view('vue_test.chap422');
     });
 });
