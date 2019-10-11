@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.0"></script>
 </head>
 <body>
 <div id="app">
@@ -13,6 +12,7 @@
 </div>
 </body>
 </html>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.0"></script>
 <script>
     new Vue({
         el: '#app',

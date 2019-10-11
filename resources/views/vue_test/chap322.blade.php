@@ -6,7 +6,6 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.0"></script>
 </head>
 <body>
 <div id="app1">
@@ -17,6 +16,7 @@
 </div>
 </body>
 </html>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.0"></script>
 <script>
     var app1 = new Vue({
         el: '#app1',
