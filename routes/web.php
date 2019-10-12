@@ -59,4 +59,7 @@ Route::prefix('vue')->group(function () {
     Route::get('chap550', function () {
         return view('vue_test.chap550');
     });
+    Route::get('chap611', function () {
+        return view('vue_test.chap611');
+    });
 });
