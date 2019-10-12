@@ -62,4 +62,25 @@ Route::prefix('vue')->group(function () {
     Route::get('chap611', function () {
         return view('vue_test.chap611');
     });
+    Route::get('chap621', function () {
+        return view('vue_test.chap621');
+    });
+    Route::get('chap631', function () {
+        return view('vue_test.chap631');
+    });
+    Route::get('chap711', function () {
+        return view('vue_test.chap711');
+    });
+    Route::get('chap712', function () {
+        return view('vue_test.chap712');
+    });
+    Route::get('chap713', function () {
+        return view('vue_test.chap713');
+    });
+    Route::get('chap714', function () {
+        return view('vue_test.chap714');
+    });
+    Route::get('chap715', function () {
+        return view('vue_test.chap715');
+    });
 });
