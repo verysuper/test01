@@ -58,7 +58,7 @@ Route::prefix('vue')->group(function () {
     });
     Route::get('chap550', function () {
         return view('vue_test.chap550');
-    });
+    });//example 550
     Route::get('chap611', function () {
         return view('vue_test.chap611');
     });
@@ -67,7 +67,7 @@ Route::prefix('vue')->group(function () {
     });
     Route::get('chap631', function () {
         return view('vue_test.chap631');
-    });
+    });//example 631
     Route::get('chap711', function () {
         return view('vue_test.chap711');
     });
@@ -82,5 +82,41 @@ Route::prefix('vue')->group(function () {
     });
     Route::get('chap715', function () {
         return view('vue_test.chap715');
+    });
+    Route::get('chap716', function () {
+        return view('vue_test.chap716');
+    });
+    Route::get('chap721', function () {
+        return view('vue_test.chap721');
+    });
+    Route::get('chap722', function () {
+        return view('vue_test.chap722');
+    });
+    Route::get('chap723', function () {
+        return view('vue_test.chap723');
+    });
+    Route::get('chap724', function () {
+        return view('vue_test.chap724');
+    });
+    Route::get('chap731', function () {
+        return view('vue_test.chap731');
+    });
+    Route::get('chap732', function () {
+        return view('vue_test.chap732');
+    });
+    Route::get('chap733', function () {
+        return view('vue_test.chap733');
+    });
+    Route::get('chap734', function () {
+        return view('vue_test.chap734');
+    });
+    Route::get('chap735', function () {
+        return view('vue_test.chap735');
+    });//example 735 bus
+    Route::get('chap736', function () {
+        return view('vue_test.chap736');
+    });
+    Route::get('chap737', function () {
+        return view('vue_test.chap737');
     });
 });
