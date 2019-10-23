@@ -131,4 +131,10 @@ Route::prefix('vue')->group(function () {
     Route::get('chap744', function () {
         return view('vue_test.chap744');
     });
+    Route::get('chap745', function () {
+        return view('vue_test.chap745');
+    });
+    Route::get('chap746', function () {
+        return view('vue_test.chap746');
+    });
 });
